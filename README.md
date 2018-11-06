@@ -18,3 +18,8 @@ swap.c: This program shuffles the edges of a graph by iteratively selecting two 
 - "ng" is the number of graphs to generate
 - The resulting graphs will be printed in the files "net1.txt", "net2.txt", ..., "netng.txt". "neti.txt" is thus obtained by performing i*no move/swap operations on the input graph.
 
+## Initial contributors:
+Maximilien Danisch  
+November 2018  
+http://bit.ly/danisch  
+maximilien.danisch@gmail.com
