@@ -2,13 +2,13 @@
 C code to break the structure of a real-world graph
 
 ## Info:
-move.c: This program shuffles the edges of a graph by iteratively removing a randomly chosen edge and putting it back between two randomly chosen nonadjacent nodes. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge.
+move.c: This program shuffles the edges of a graph by iteratively removing an edge chosen uniformly at random and putting it back between two nonadjacent nodes chosen uniformly at random. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge.
 
-swap.c: This program shuffles the edges of a graph by iteratively selecting two random edges and swapping their end-nodes while making sure not to create any self-loop or double edge. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge. Note that the degree of each node is conserved.
+swap.c: This program shuffles the edges of a graph by iteratively selecting two edges chosen uniformly at random and swapping their end-nodes while making sure not to create any self-loop or double edge. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge. Note that the degree of each node is conserved.
 
-add.c: This program iteratively adds an edge between two randomly chosen non-adjacent nodes. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge. The code is efficient only if the final number of edges is small in front of "n*(n-1)/2" the number of possible edges.
+add.c: This program iteratively adds an edge between two non-adjacent nodes chosen uniformly at random. The input graph should not contain any self-loop or double-edge and the resulting graphs will not contain any self-loop or double-edge. The code is efficient only if the final number of edges is small in front of "n*(n-1)/2" the number of possible edges.
 
-remove.c: This program iteratively removes a randomly chosen edge.
+remove.c: This program iteratively removes an edge chosen uniformly at random.
 
 ## To compile:
 "gcc move.c -O9 -o move"  
