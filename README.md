@@ -12,7 +12,7 @@ remove.c: This program iteratively removes a randomly chosen edge.
 
 ## To compile:
 "gcc move.c -O9 -o move"  
-"gcc swap.c -O9 -o swap"
+"gcc swap.c -O9 -o swap"  
 "gcc add.c -O9 -o add"  
 "gcc remove.c -O9 -o remove"
 
