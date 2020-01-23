@@ -61,7 +61,7 @@ edgelist* readedgelist(char* input){
 		g->n=max3(g->n,s,t);
 		g->edges[g->e].s=s;
 		g->edges[g->e].t=t;
-		if (g->e++==e1) {//increase allocated memory of needed
+		if (++(g->e)==e1) {//increase allocated memory of needed
 			e1+=NLINKS;
 			g->edges=realloc(g->edges,e1*sizeof(edge));
 		}
